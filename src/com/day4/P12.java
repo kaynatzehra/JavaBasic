@@ -10,7 +10,6 @@ public class P12 {
 	    void display(){System.out.println(roll+" "+name);}  
 	   
 	    public static void main(String args[]){  
-	    //creating objects and passing values  
 	    P12 p1 = new P12(1,"Arav");  
 	    P12 p2 = new P12(2,"Aryan");
 	    p1.display();  

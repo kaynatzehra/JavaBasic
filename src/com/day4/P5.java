@@ -1,26 +1,11 @@
 package com.day4;
 
 public class P5 {
-		  public void eat() {
-		    System.out.println("I can eat");
-		  }
-		class Dog extends P5 {
-		  public void eat() {
-		    System.out.println("I eat dog food");
-		  }
-		  public void bark() {
-		    System.out.println("I can bark");
-		  }
-		}
-		class Main {
-		  public static void main(String[] args) {
-
-		    // create an object of the subclass
-		    Dog labrador = new Dog();
-
-		    // call the eat() method
-		    labrador.eat();
-		    labrador.bark();
-		  }
-		}
-}
+		   static int add(int a, int b){return a+b;}  
+		   static int add(int a, int b, int c){return (a+b+c)/2;}  
+		 
+		    public static void main(String args[]) {
+		      System.out.println(add(2, 6));
+		      System.out.println(add(2, 6, 4));
+		    }
+		} 
