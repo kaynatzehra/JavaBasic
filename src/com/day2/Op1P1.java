@@ -1,11 +1,9 @@
 package com.day2;
-
+import java.util.Scanner;
 public class Op1P1 {
-	import java.util.Scanner;
+	
 	 
-	public class JavaProgram
-	{
-	    public static void main(String args[])
+	public static void main(String args[])
 	  {
 	    int first, second, add, subtract, multiply;
 	    float devide;
@@ -28,4 +26,4 @@ public class Op1P1 {
 	}
 
 
-}
+
